@@ -1,0 +1,17 @@
+
+npm install gulp-cli --save-dev  установка пакета локально
+npm install gulp --save-dev
+устанавливаем необходимые пакеты (npm i gulp-sass --save-dev)
+
+
+
+
+git init инициализация репозитория
+git config --global(local) user.name "azesm"
+git config --global(local) user.email "azesm@yahoo.com"
+git add -A добавить в git все файлы
+git status статус добавленных файлов (красный - нет, зелёный - да)
+git commit -a -m"first commit" создание коммита в скобках описание изменений
+git log вывести все коммиты с названиями изменений
+
+git checkout СБРОСИТЬ ПРЕДЫДУЩИЕ ИЗМЕНЕНИЯ
