@@ -15,3 +15,8 @@ git commit -a -m"first commit" создание коммита в скобках
 git log вывести все коммиты с названиями изменений
 
 git checkout СБРОСИТЬ ПРЕДЫДУЩИЕ ИЗМЕНЕНИЯ
+
+
+git remote add origin https://github.com/azesmDotCom/PetWatch.git
+git branch -M main
+git push -u origin main
