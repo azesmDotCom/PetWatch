@@ -13,4 +13,11 @@
         color: $hoverText-color;
         transition: all 0.4s;
     }
+    &_main {
+        margin-top: 65px;
+        width: 300px;
+        height: 55px;
+        font-size: 16px;
+
+    }
 }
