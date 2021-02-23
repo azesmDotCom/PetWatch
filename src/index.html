@@ -9,9 +9,12 @@
     <!------------------------------Link Favicon-------------------------->
     <!--<link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">-->
     <!------------------------------Link Fonts-------------------------->
-    <!--<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic-ext" rel="stylesheet">-->
+    <link rel="stylesheet" href="css/font.css">
     <!------------------------------Link Reboot.css-------------------------->
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <!------------------------------Slick Slider.css-------------------------->
+    <link rel="stylesheet" href="css/slick.css">
+
     <!------------------------------Link Bootstrap-grid.css-------------------------->
     <!--<link rel="stylesheet" href="css/bootstrap-grid.min.css">-->
     <!------------------------------Link Icon-------------------------->
@@ -22,7 +25,7 @@
 </head>
 
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -68,9 +71,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="advantages">
+    <section class="advantages">
         <div class="container">
             <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantages__wrapper">
@@ -102,9 +105,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="consultation">
+    <section class="consultation">
         <div class="container">
             <h2 class="title title_left">
                 Бесплатная консультация по созданию<br>
@@ -122,8 +125,28 @@
                 <button class="button button_submit">Заказать консультацию</button>
             </form>
         </div>
-    </div>
+    </section>
 
+    <section class="carousel">
+<div class="container">
+    <div class="carousel__inner">
+        <div>
+            <img src="img/slide_2.jpg" alt="">
+        </div>
+        <div>
+            <img src="img/slide_1.jpg" alt="">
+        </div>
+        <div>
+            <img src="img/slide_3.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+    </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
