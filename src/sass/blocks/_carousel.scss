@@ -1,61 +1,61 @@
-//.carousel {
-//    padding: 81px 0;
+.carousel {
+    padding: 81px 15px;
 
-//    &__inner {
-//        position: relative;
-//        width: 750px;
-//        margin: 0 auto;
-//        //img {
-//        //    width: 33%;
-//        //}
-//    }
+    &__inner {
+        position: relative;
+        width: 750px;
+        margin: 0 auto;
+        img {
+            width: 100%;
+        }
+    }
 
-//    .slick-prev {
-//        position: absolute;
-//        top: 50%;
-//        transform: translateY(-50%);
-//        left: -60px;
-//        border: none;
-//        background-color: #fff;
+    [data-controls = prev] {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -60px;
+        border: none;
+        background-color: #fff;
 
-//        img {
-//            width: 30px;
-//            height: 50px;
-//        }
-//    }
+        img {
+            width: 30px;
+            height: 50px;
+        }
+    }
 
-//    .slick-next {
-//        position: absolute;
-//        top: 50%;
-//        transform: translateY(-50%);
-//        right: -60px;
-//        border: none;
-//        background-color: #fff;
+    [data-controls = next] {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -60px;
+        border: none;
+        background-color: #fff;
 
-//        img {
-//            width: 30px;
-//            height: 50px;
-//        }
-//    }
-//    .slick__item {
-//        max-width: 100%;
-//        }
-    //.tns-item {
-    //    img {
-    //        display: block;
-    //        margin: 0, auto;
-    //    }
-    //}
-    //.tns-nav {
-    //    button {
-    //        width: 20px;
-    //        height: 20px;
-    //        border-radius: 5px;
-    //        background-color: greenyellow;
-    //    }
-    //    .tns-nav-active {
-    //        background-color: indigo;
+        img {
+            width: 30px;
+            height: 50px;
+        }
+    }
+    .slick__item {
+        max-width: 100%;
+        }
+    .tns-item {
+        img {
+            display: block;
+            margin: 0, auto;
+        }
+    }
+    .tns-nav {
+        button {
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            background-color: greenyellow;
+        }
+        .tns-nav-active {
+            background-color: indigo;
 
-    //    }
-    //}
-//}
+        }
+    }
+}

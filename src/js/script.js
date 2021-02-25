@@ -1,23 +1,22 @@
-
-
-
-
-
 const slider = tns({
     container: '.carousel__inner',
     items: 1,
     slideBy: 'page',
-    axis: "vertical",
-    autoplay: false,
-    controls: false,
-    nav: false
+    autoplay: true,
+    autoplayTimeout: 5000,
+    nav: false,
+    dots: true,
+    controlsText: [
+        '<img src="icons/left.svg">',
+        '<img src="icons/right.svg">'
+    ]
 });
-document.querySelector('.prev').addEventListener('click', function () {
-    slider.goTo('prev');
-});
-document.querySelector('.next').addEventListener('click', function () {
-    slider.goTo('next');
-});
+//document.querySelector('.prev').addEventListener('click', function () {
+//    slider.goTo('prev');
+//});
+//document.querySelector('.next').addEventListener('click', function () {
+//    slider.goTo('next');
+//});
 
 
 
