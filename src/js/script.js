@@ -4,19 +4,18 @@ const slider = tns({
     slideBy: 'page',
     autoplay: true,
     autoplayTimeout: 5000,
-    nav: false,
-    dots: true,
+    navPosition: false,
     controlsText: [
         '<img src="icons/left.svg">',
         '<img src="icons/right.svg">'
     ]
 });
-//document.querySelector('.prev').addEventListener('click', function () {
-//    slider.goTo('prev');
-//});
-//document.querySelector('.next').addEventListener('click', function () {
-//    slider.goTo('next');
-//});
+document.querySelector('.prev').addEventListener('click', function () {
+    slider.goTo('prev');
+});
+document.querySelector('.next').addEventListener('click', function () {
+    slider.goTo('next');
+});
 
 
 

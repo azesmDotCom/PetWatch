@@ -3,11 +3,12 @@
 //        width: 100%
 //    }
 //}
-//@media (max-width: 1075px) {
-//    .prev {
-//        display: none;
-//    }
-//}
+@media (max-width: 1075px) {
+    [data-controls = prev],
+    [data-controls = next] {
+        display: none;
+    }
+}
 
 @media (max-width: 980px) {
     .promo {
