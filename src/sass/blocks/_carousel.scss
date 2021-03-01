@@ -1,6 +1,13 @@
 .carousel {
     padding: 81px 20px;
 
+    &__h2 {
+        &__title {
+            margin-bottom: 50px;
+        }
+
+    }
+
     &__inner {
         position: relative;
         width: 750px;

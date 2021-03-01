@@ -1,8 +1,8 @@
-const slider = tns({
+var slider = tns({
     container: '.carousel__inner',
     items: 1,
     slideBy: 'page',
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 5000,
     navPosition: false,
     controlsText: [
@@ -10,10 +10,10 @@ const slider = tns({
         '<img src="icons/right.svg">'
     ]
 });
-document.querySelector('.prev').addEventListener('click', function () {
+    document.querySelector('.prev').addEventListener('click', function () {
     slider.goTo('prev');
 });
-document.querySelector('.next').addEventListener('click', function () {
+    document.querySelector('.next').addEventListener('click', function () {
     slider.goTo('next');
 });
 
