@@ -7,6 +7,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 0;
+        padding-left: 0;
 
     }
 
@@ -23,6 +25,13 @@
         line-height: 48px;
         transform: skewX(-30deg);
         margin: 0 5px;
+        cursor: pointer;
+        transition: 0.5s all;
+
+        &:hover {
+            box-shadow: 3px 3px 20px $hover-color;
+            border: none;
+        }
 
         div {
             transform: skewX(30deg);
@@ -30,7 +39,11 @@
 
         &_active {
             color: #fff;
-            background-color: $hover-color;
+            background-color: $main-color;
+            border: none;
         }
+    }
+    &__content {
+        margin-top: 60px;
     }
 }
