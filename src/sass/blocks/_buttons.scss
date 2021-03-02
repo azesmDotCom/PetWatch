@@ -8,17 +8,20 @@
     border: none;
     text-transform: uppercase;
     color: #fff;
+
     &:hover {
         background-color: $hover-color;
         color: $hoverText-color;
         transition: all 0.4s;
     }
+
     &_main {
         margin-top: 65px;
         width: 300px;
         height: 55px;
         font-size: 16px;
     }
+
     &_submit {
         width: 100%;
         height: 55px;
@@ -26,5 +29,11 @@
         font-size: 16px;
         font-weight: 300;
         text-transform: uppercase;
+    }
+
+    &_mini {
+        width: 131px;
+        height: 40px;
+        font-size: 14px;
     }
 }
