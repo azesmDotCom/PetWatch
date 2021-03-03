@@ -46,9 +46,12 @@
 
     &__content {
         margin-top: 60px;
-        display: flex;
+        display: none;
         justify-content: space-between;
         flex-wrap: wrap;
+        &_active {
+            display: flex;
+        }
     }
 
     &-item {
@@ -140,6 +143,7 @@
             margin-right: 0px;
             transform: translateX(-100%);
             transition: 0.5s all;
+            
 
             &_active {
                 transform: translateX(0%);
