@@ -175,19 +175,21 @@
 
     }
 
-    .catalog__tabs {
-        margin-top: 25px;
-    }
-
+    
     .catalog {
         .container {
+            .catalog__tabs {
+                margin-top: 25px;
+        }
             .catalog__tab {
                 width: 160px;
                 height: 45px;
                 font-weight: 700;
                 font-size: 16px;
                 line-height: 40px;
+                
             }
+            
         }
     }
 }
