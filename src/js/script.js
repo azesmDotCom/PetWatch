@@ -53,12 +53,12 @@ var slider = tns({
 
 
 });
-document.querySelector('.prev').addEventListener('click', function () {
-    slider.goTo('prev');
-});
-document.querySelector('.next').addEventListener('click', function () {
-    slider.goTo('next');
-});
+    document.querySelector('.prev').addEventListener('click', function () {
+        slider.goTo('prev');
+    });
+    document.querySelector('.next').addEventListener('click', function () {
+        slider.goTo('next');
+    });
 
 
 
