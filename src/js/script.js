@@ -43,8 +43,8 @@ var slider = tns({
     container: '.carousel__inner',
     items: 1,
     slideBy: 'page',
-    autoplay: false,
-    autoplayTimeout: 5000,
+    autoplay: true,
+    autoplayTimeout: 3000,
     navPosition: false,
     controlsText: [
         '<img src="icons/left.svg">',
