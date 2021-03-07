@@ -255,6 +255,21 @@
         }
     }
 
+    .reviews__wrapper {
+        margin-top: 20px;
+    }
+    .reviews__items-descr{
+        margin-left: 10px;
+        padding: 6px;
+    }
+    .reviews__descr {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .reviews__items {
+        margin-bottom: 20px;
+    }
+
 }
 
 @media (max-width: 410px) {
@@ -323,6 +338,11 @@
         font-size: 12px;
     }
 
+    .reviews__img {
+        width: 100px;
+        height: 100px;
+    }
+
 
 }
 
@@ -339,5 +359,8 @@
             line-height: 10px;
         }
 
+    }
+    .reviews__subtitle {
+        font-size: 15px;
     }
 }
