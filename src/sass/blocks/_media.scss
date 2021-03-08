@@ -204,199 +204,263 @@
     .advantages__item {
         margin-top: 15px;
     }
-}
 
-@media (max-width: 610px) {
-    .consultation {
-        .title {
-            &_left {
-                font-size: 18px;
-            }
-        }
+    .modal {
+        width: 310px;
+        min-height: 300px;
+        padding: 20px 20px 20px 20px;
 
-        .consultation__descr {
-            font-size: 16px;
+        &_subtitle {
+            font-weight: 700;
+            font-size: 13px;
         }
 
     }
-}
 
-@media (max-width: 540px) {
-    .catalog {
-        .container {
-            .catalog__tab {
-                margin-bottom: 10px;
-            }
+    form.feed-form_mt25 {
+        margin-top: 16px;
+    }
 
-            .catalog__tabs {
-                flex-direction: column;
-                align-items: center;
-
-            }
+    form.feed-form.feed-form_mt25 {
+        input {
+            height: 30px;
+            width: 268px;
+            //margin-top: 10px;
+            margin-bottom: 16px;
         }
-    }
-}
-
-@media (max-width: 510px) {
-    .consultation {
-        min-height: 475px;
-
-        .title {
-            &_left {
-                font-size: 14px;
-            }
-        }
-
-        .consultation__descr {
-            font-size: 12px;
-            line-height: 14px;
-        }
-
-        .feed-form {
-            width: 250px;
-        }
-    }
-
-    .reviews__wrapper {
-        margin-top: 20px;
-    }
-
-    .reviews__items-descr {
-        margin-left: 10px;
-        padding: 6px;
-    }
-
-    .reviews__descr {
-        font-size: 12px;
-        line-height: 20px;
-    }
-
-    .reviews__items {
-        margin-bottom: 20px;
-    }
-
-    .footer__info {
-        width: 370px;
-    }
-
-}
-
-@media (max-width: 410px) {
-    .consultation {
-        .container {
-            padding: 20px 20px;
-        }
-    }
-
-    .header__logo {
-        width: 120px;
-    }
-
-    .header__phone {
-        display: none;
-    }
-
-    .promo__link a {
-        font-size: 14px;
-    }
-
-    .promo__icons {
-        margin-top: 30px;
-        width: 300px;
-    }
-
-    .promo__icon {
-        width: 98px;
-        text-align: center;
-        font-size: 13px;
-        line-height: 13px;
-    }
-
-    .promo__wrapper {
-        margin: 30px 10px 10px 10px;
-        align-items: center;
-    }
-
-    .promo__header {
-        font-size: 22px;
-        line-height: 22px;
-    }
-
-    .promo__subheader {
-        margin-top: 8px;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-    }
-
-    .consultation {
-        .title {
-            &_left {
-                font-size: 12px;
-            }
-        }
-
-        .consultation__descr {
-            font-size: 12px;
-            line-height: 12px;
-        }
-
     }
 
     .button_submit {
-        font-size: 12px;
+        width: 89%;
+        height: 39px;
+        color: #fff;
+        font-size: 15px;
+        margin-top: 16px;
     }
 
-    .reviews__img {
-        width: 100px;
-        height: 100px;
-    }
+    @media (max-width: 610px) {
+        .consultation {
+            .title {
+                &_left {
+                    font-size: 18px;
+                }
+            }
 
-    .footer__info {
-        width: 300px;
-    }
+            .consultation__descr {
+                font-size: 16px;
+            }
 
-    .footer__addr {
-        margin-bottom: 20px;
-        font-size: 14px;
-        line-height: 17px;
-    }
-
-    .footer__phone {
-        font-size: 16px;
-        line-height: 16px;
-    }
-
-    .footer__social-item {
-        width: 40px;
-        height: 40px;
-        border: 1px solid #cfcfcf;
-        margin: 0 10px;
-
-        img {
-            height: 20px;
         }
     }
 
+    @media (max-width: 540px) {
+        .catalog {
+            .container {
+                .catalog__tab {
+                    margin-bottom: 10px;
+                }
 
-}
+                .catalog__tabs {
+                    flex-direction: column;
+                    align-items: center;
 
-@media (max-width: 365px) {
-    .consultation {
-        .title {
-            &_left {
+                }
+            }
+        }
+    }
+
+    @media (max-width: 510px) {
+        .consultation {
+            min-height: 475px;
+
+            .title {
+                &_left {
+                    font-size: 14px;
+                }
+            }
+
+            .consultation__descr {
                 font-size: 12px;
+                line-height: 14px;
+            }
+
+            .feed-form {
+                width: 250px;
             }
         }
 
-        .consultation__descr {
-            font-size: 10px;
-            line-height: 10px;
+        .reviews__wrapper {
+            margin-top: 20px;
+        }
+
+        .reviews__items-descr {
+            margin-left: 10px;
+            padding: 6px;
+        }
+
+        .reviews__descr {
+            font-size: 12px;
+            line-height: 20px;
+        }
+
+        .reviews__items {
+            margin-bottom: 20px;
+        }
+
+        .footer__info {
+            width: 370px;
         }
 
     }
 
-    .reviews__subtitle {
-        font-size: 15px;
+    @media (max-width: 410px) {
+        .consultation {
+            .container {
+                padding: 20px 20px;
+            }
+        }
+
+        .header__logo {
+            width: 120px;
+        }
+
+        .header__phone {
+            display: none;
+        }
+
+        .promo__link a {
+            font-size: 14px;
+        }
+
+        .promo__icons {
+            margin-top: 30px;
+            width: 300px;
+        }
+
+        .promo__icon {
+            width: 98px;
+            text-align: center;
+            font-size: 13px;
+            line-height: 13px;
+        }
+
+        .promo__wrapper {
+            margin: 30px 10px 10px 10px;
+            align-items: center;
+        }
+
+        .promo__header {
+            font-size: 22px;
+            line-height: 22px;
+        }
+
+        .promo__subheader {
+            margin-top: 8px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        .consultation {
+            .title {
+                &_left {
+                    font-size: 12px;
+                }
+            }
+
+            .consultation__descr {
+                font-size: 12px;
+                line-height: 12px;
+            }
+
+        }
+
+        .button_submit {
+            font-size: 12px;
+        }
+
+        .reviews__img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .footer__info {
+            width: 300px;
+        }
+
+        .footer__addr {
+            margin-bottom: 20px;
+            font-size: 14px;
+            line-height: 17px;
+        }
+
+        .footer__phone {
+            font-size: 16px;
+            line-height: 16px;
+        }
+
+        .footer__social-item {
+            width: 40px;
+            height: 40px;
+            border: 1px solid #cfcfcf;
+            margin: 0 10px;
+
+            img {
+                height: 20px;
+            }
+        }
+
+        .modal {
+            width: 300px;
+
+            &__close {
+                font-size: 50px;
+                top: -58px;
+                right: 4px;
+            }
+
+        }
+
+        form.feed-form_mt25 {
+            margin-top: 16px;
+        }
+
+        form.feed-form.feed-form_mt25 {
+            input {
+                height: 30px;
+                width: 268px;
+                //margin-top: 10px;
+                margin-bottom: 16px;
+            }
+        }
+
+        .button_submit {
+            width: 89%;
+            height: 39px;
+            color: #fff;
+            font-size: 15px;
+            margin-top: 16px;
+        }
+
+    }
+
+    @media (max-width: 365px) {
+        .consultation {
+            .title {
+                &_left {
+                    font-size: 12px;
+                }
+            }
+
+            .consultation__descr {
+                font-size: 10px;
+                line-height: 10px;
+            }
+
+        }
+
+        .reviews__subtitle {
+            font-size: 15px;
+        }
     }
 }
