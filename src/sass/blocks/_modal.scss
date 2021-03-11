@@ -52,6 +52,13 @@
         min-height: 140px;
 
     }
+    .error {
+        border: 1px dotted $hover-color;
+        border-radius: 4px;        
+    }
+    label.error {
+        border: none;
+    }
 }
 
 #consultation,

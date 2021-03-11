@@ -44,13 +44,43 @@
         $('.modal__close').on('click', function () {
             $('.overlay, #consultation, #thanks, #order').fadeOut('slow');
         });
-        
+
         $('.button_mini').each(function (i) {
             $(this).on('click', function () {
                 $('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text());
                 $('.overlay, #order').fadeIn('slow');
             });
         });
+
+
+        $('#consultation-form').validate();
+        $('#consultation form').validate({
+            rules: {
+                name: {
+                    required: true,
+                    minlength: 3
+                },
+                phone: "required",
+                email: {
+                    required: true,
+                    email: true
+                }
+            },
+            messages: {
+                name: {
+                    required: "Введите своё имя",
+                    minlength: jQuery.validator.format("Введите не менее {0}-х символов")
+                },
+                phone: "Введите номер телефона",
+                email: {
+                    required: "Введите свой e-mail",
+                    email: "Неправильно введён адрес почты"
+                }
+            }
+
+        });
+        $('#order form').validate();
+
 
     });
 })(jQuery);
@@ -59,7 +89,7 @@ var slider = tns({
     container: '.carousel__inner',
     items: 1,
     slideBy: 'page',
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 3000,
     navPosition: false,
     controlsText: [
