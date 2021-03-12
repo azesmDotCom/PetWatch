@@ -18,7 +18,12 @@
     <!------------------------------Tiny-Slider.css----------------------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!------------------------------nimate.css----------------------->
+
+
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />-->
 
 
 
@@ -470,8 +475,8 @@
             <h2 class="title">Funny reviews</h2>
             <div class="reviews__wrapper">
 
-                <div class="reviews__item">
-                    <div class="reviews__items">
+                <div class="reviews__item animate__animated animate__fadeInTopLeft wow" data-wow-duration:="1s" data-wow-delay="0.5s">
+                    <div class="reviews__items ">
                         <img class="reviews__img" src="img/feed_1.png" alt="#"></img>
                         <div class="reviews__items-descr">
                             <div class="reviews__subtitle">First lorem, ipsum dolor.</div>
@@ -489,8 +494,8 @@
                     </div>
                 </div>
 
-                <div class="reviews__item">
-                    <div class="reviews__items">
+                <div class="reviews__item animate__animated animate__fadeInTopRight wow" data-wow-duration:="1s" data-wow-delay="0.5s">
+                    <div class="reviews__items fadeInUp animated">
                         <img class="reviews__img" src="img/feed_1.png" alt="#"></img>
                         <div class="reviews__items-descr">
                             <div class="reviews__subtitle">Second lorem, ipsum dolor.</div>
@@ -513,8 +518,8 @@
                     </div>
                 </div>
 
-                <div class="reviews__item">
-                    <div class="reviews__items">
+                <div class="reviews__item animate__animated animate__fadeInTopLeft wow" data-wow-duration:="1s" data-wow-delay="0.5s">
+                    <div class="reviews__items ">
                         <img class="reviews__img" src="img/feed_1.png" alt="#"></img>
                         <div class="reviews__items-descr">
                             <div class="reviews__subtitle">Third lorem, ipsum dolor.</div>
@@ -532,6 +537,8 @@
                         </div>
                     </div>
                 </div>
+
+
 
             </div>
         </div>
@@ -616,6 +623,10 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
     <script src="js/script.js"></script>
 </body>
